@@ -3,6 +3,9 @@ import streamlit as st
 
 st.title("AI Growth Plan")
 
+st.write("当前进度：Day 3 / 30")
+st.progress(3 / 30)
+
 st.header("今日状态")
 st.write("今天精神不错，准备完成 Day 3 的学习任务。")
 
